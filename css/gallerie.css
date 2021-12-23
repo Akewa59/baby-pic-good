@@ -1,0 +1,152 @@
+
+*{
+    margin: 0px;
+     padding: 0px;
+     font-family: 'Franklin Gothic Medium';
+     box-sizing: border-box;
+     text-decoration: none;
+   } 
+   .logo{
+    width: 20%;
+    justify-self: left;
+    height: 3rem;
+    margin: 10px;
+   
+   }
+   
+   nav{
+     width: 100%;
+     height: 7rem;
+     background-color: rgba(235, 133, 75, 0.822);
+     border-bottom: 0.5px solid rgb(10, 10, 10);
+     /* display: flex; */
+   
+   }
+   
+   ul{
+     display:flex;
+     justify-content: right;
+     height: 100%;
+     line-height: 10px;
+     font-size: 1rem;
+     list-style-type: none;
+     }
+   nav:first-child{
+     justify-self: left;
+   }
+   li{
+     cursor: pointer;
+     margin: 0 20px;
+     flex-shrink: 0;
+   }
+    a{
+     color: rgb(20, 17, 12);
+   }
+   
+   .container{
+     display: grid;
+     margin-block-start: 60px;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+    background-color: #fffffff8;
+     grid-template-areas: 
+     "img1 img2 img2 img3" 
+     "img1 img2 img2 img3"
+     "img4 img5 img5 img6";
+     height: 100vh;
+     grid-gap: 1rem;
+     width: 90vw;
+     
+     }
+   
+     .article1{
+       grid-area: img1;
+       height: 100%;
+       width: 100%;
+     }
+   
+     .article2{
+       grid-area: img2;
+       height: 100%;
+       width: 100%;
+     }
+   
+     .article3{
+       grid-area: img3;
+     }
+     .article4{
+        grid-area: img4;
+      }
+      .article5{
+        grid-area: img5;
+      }
+      .article6{
+        grid-area: img6;
+      }
+   
+     footer{
+       position: absolute;
+       background-color: rgba(235, 133, 75, 0.822);
+       height: auto;
+       width: 100vw;
+       padding-top: 60px;
+       color: black;
+       
+     }
+   
+     .footer-content{
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+     }
+   
+     .footer-bottom{
+       background: coral;
+       width: 100vw;
+       padding: 10px 0;
+   text-align: center;
+     }
+     
+   /* footer{
+     position: absolute;
+     bottom: 0;
+     background-color: rgb(124, 206, 152);
+     width: 100%;
+     height: 160px;
+     padding-top: 40px;
+     color: rgb(5, 0, 0);
+     text-align: center;
+   } */
+   
+     
+     /* h4{
+       font-family: 'Trebuchet MS';
+     
+      
+     }
+     p{
+       font-family: Helvetica, sans-serif;
+       padding: 2px;
+       
+     } */
+   
+   /* .footer-content{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     flex-direction: column;
+     font-family: Arial, Helvetica, sans-serif;
+   } */
+   
+   /* :::.socials{
+     list-style-type:none;
+     color: aqua;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   } */
+   
+   
+   
